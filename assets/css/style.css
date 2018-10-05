@@ -1,0 +1,52 @@
+body{
+    
+}
+
+.navbox{
+
+}
+
+.fullname{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(74,170,165);
+    color: black;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    float: left;    
+}
+
+.navlinks{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    text-align: right;
+    float: right;
+}
+
+
+
+.aboutme{
+    
+}
+
+.profilepic{
+    width: 350px;
+    height: auto;
+    position: relative;
+    float: left;
+
+}
+
+.bodytext{
+
+}
