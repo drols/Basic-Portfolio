@@ -1,23 +1,38 @@
+
+
 body{
+    margin: 0px 0px 0px 0px;
+    background-image: url("../images/tessellating-background.png");
+    background-repeat: repeat;
+    display: block;
+}
+
+.history{
+    float: auto;
+}
+
+.contentbox{
+    width: 960px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 200px;
+    border: 3px;
+    border-style: solid;
+    border-color: grey;
+    padding: 20px;
     
 }
 
-.navbox{
-
-}
-
 .fullname{
-    font-size: 15px;
+    font-size: 24px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(74,170,165);
-    color: black;
-    margin: auto;
-    width: auto;
+    color: white;
+    /* width: 33.3333333%; */
     height: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
     text-align: center;
     float: left;    
 }
@@ -25,28 +40,64 @@ body{
 .navlinks{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: auto;
-    width: auto;
+    width: 33.3333333;
     height: auto;
     padding: 15px;
     text-align: right;
     float: right;
+
 }
 
 
 
 .aboutme{
-    
+    font-size: 30px;
+    float: inherit;
+
+
+}
+
+.navbar{
+    width: 960px;
+    height: 100px;
+    /* margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin: 0px; 
+    margin-bottom:20px; */
+    margin: auto;
+
+
 }
 
 .profilepic{
     width: 350px;
     height: auto;
-    position: relative;
     float: left;
+    margin-right: 25px;
+    /* margin-top: 25px; */
+    /* margin-bottom: 25px; */
 
 }
 
-.bodytext{
+.font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
 
+
+
+h3{
+    font-size: 15px;
+
+}
+
+.page-footer{
+    width: 100%;
+    background-color: rgb(74,170,165);
+    text-align: center;
+    color: white;
+    padding: 12px;
+    position: sticky;
+    top: 100;
+    bottom: 0; 
 }
