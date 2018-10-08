@@ -16,7 +16,7 @@ body{
     background-color: white;
     margin: auto;
     margin-bottom: 200px;
-    border: 3px;
+    border: 1px;
     border-style: solid;
     border-color: grey;
     padding: 20px;
@@ -53,19 +53,30 @@ body{
 .aboutme{
     font-size: 30px;
     float: inherit;
+    color: rgb(74,170,165);
+    padding-left: 75px;
+    margin-top: 10px;
+    
 
 
 }
 
 .navbar{
-    width: 960px;
-    height: 100px;
+    /* width: 960px; */
+    height: 68px;
     /* margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
-    margin: 0px; 
-    margin-bottom:20px; */
-    margin: auto;
+    /* margin: 0px;  */
+    margin-bottom: 50px;
+    /* margin: auto; */
+    background-color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: grey;
+
 
 
 }
